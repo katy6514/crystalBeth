@@ -1,0 +1,220 @@
+/*
+ Theme Name:     Sela Child Theme
+ Theme URI:      https://wordpress.com/themes/sela/
+ Description:    Sela Child Theme
+ Author:
+ Author URI:
+ Template:       Sela
+ Version:        1.0.0
+*/
+
+@import url("../sela/style.css");
+
+/* -------------------------------------------------------
+    Theme customization starts here
+------------------------------------------------------- */
+/* -----------------------------------
+  Edits to Sela
+----------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700);
+
+
+
+#primary{
+    width:100%;
+}
+
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+h1.entry-title, h1.page-title{
+    display: none;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Cantarell', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.hero-container-inner{
+    display: none;
+}
+
+#respond{
+    display: none;
+}
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+input, textarea{
+    background-color: #eee;
+    color: #222;
+}
+
+input[type="submit"]{
+    background-color: #FF6600;
+}
+
+/*--------------------------------------------------------------
+5.2 Menus
+--------------------------------------------------------------*/
+.main-navigation {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 24px;
+    background-color: #fff;
+    border-bottom: 0;
+}
+
+.main-navigation a{
+    color: #808080;
+}
+
+.main-navigation a:hover, .main-navigation ul > :hover > a, .main-navigation ul > .focus > a {
+    color: #FFB280;
+}
+
+.nav-menu > li > a:after{
+    color:#000;
+}
+
+.main-navigation li.current_page_item > a, .main-navigation li.current-menu-item > a, .main-navigation li.current_page_ancestor > a, .main-navigation li.current-menu-ancestor > a{
+    color: #FF6600;
+    font-weight: bold;
+}
+.menu-toggle{
+    color:#fff;
+    background-color: #FF6600;
+    border: 1px solid #FF6600;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.menu-toggle:hover, .menu-toggle:focus {
+    color: #808080;
+    border: 1px solid #808080;
+}
+
+.social-links ul li {padding: 6px 16px;}
+
+.social-links ul a:before{
+    background-color: #666;
+}
+
+
+/*--------------------------------------------------------------
+10.1 Layout
+--------------------------------------------------------------*/
+.site-title{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------
+10.6 Footer
+--------------------------------------------------------------*/
+footer{
+    background-color: #fff;
+}
+.site-footer{
+    background-color: #fff;
+    border: 0;
+}
+
+
+/*--------------------------------------------------------------
+13 Media Queries
+--------------------------------------------------------------*/
+
+/*Since you couldn't fix the medi queries for the menu, edit the min-width to be ~700px on or around line 1764 in sela's original style sheet!*/
+
+
+@media screen and (min-width: 810px) {
+
+
+}
+
+/*--------------------------------------------------------------
+    New Stuff
+--------------------------------------------------------------*/
+/* -----------------------------------
+  About
+----------------------------------- */
+#bio img{
+    float: left;
+    margin: 0 30px 10px 0px;
+}
+
+@media screen and (max-width: 650px) {
+    #bio img{
+        width:100%;
+    }
+}
+
+/* -----------------------------------
+  Shows
+----------------------------------- */
+
+/*article{
+    font-family: Cantarell,"Open Sans", Helvetica, Arial, sans-serif;
+}*/
+
+/*#primary{
+    width: 90%;
+}*/
+
+.show_block{
+    width: 85%;
+    float:left;
+    clear:both;
+    padding-bottom: 30px;
+}
+
+.show_meta_data ul{
+    list-style-type: none;
+    margin:0px;
+}
+
+.show_meta_data li,
+.show_meta_data ul{
+    text-align:left;
+    list-style: none;
+    list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+}
+
+/* -----------------------------------
+  Videos
+----------------------------------- */
+article iframe{
+    border: 0px;
+    width: 700px;
+    height:393px;
+}
+
+.video_block{
+    width:90%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+/* -----------------------------------
+  Resume
+----------------------------------- */
+#resume_table td{
+    font-size: 90%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#resume_table td.column-1{
+    font-size: 170%;
+    font-family: Cantarell, Helvetica, Arial, sans-serif;
+}
