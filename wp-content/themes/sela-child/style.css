@@ -1,14 +1,16 @@
 /*
- Theme Name:     Sela Child Theme
- Theme URI:      https://wordpress.com/themes/sela/
- Description:    Sela Child Theme
- Author:
- Author URI:
- Template:       sela
- Version:        1.0.0
+Theme Name:     Sela Child
+Theme URI:      https://wordpress.com/themes/sela/
+Description:    Sela Child Theme
+Author:         Katherine Wyman
+Author URI:    www.katherinewyman.com
+Template:       sela
+Version:        1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sela
 */
 
-@import url("../sela/style.css");
 
 /* -------------------------------------------------------
     Theme customization starts here
