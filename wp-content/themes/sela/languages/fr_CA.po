@@ -1,5 +1,5 @@
-# Translation of Sela in French (Canada)
-# This file is distributed under the same license as the Sela package.
+# Translation of WordPress.com - Themes - Sela in French (Canada)
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-05-18 13:27:48+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Sela\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: fr_CA\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
 
 #: functions.php:161
 msgid "Second Front Page Widget Area"
@@ -44,15 +45,15 @@ msgstr "Page Quadrillé"
 msgid "Full Width Page"
 msgstr "Page Plein Écran"
 
-#. Author URI of the plugin/theme
-#: wp-content/themes/pub/sela/style.css
-msgid "https://wordpress.com/themes/"
-msgstr "https://wordpress.com/themes/"
-
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sela/page-templates/front-page.php
 msgid "Front Page"
 msgstr "Page d’Accueil"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/sela/style.css
@@ -72,15 +73,15 @@ msgstr "%1$s : %2$s"
 msgid "Archives"
 msgstr "Archives"
 
-#: inc/template-tags.php:410
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr "Audio"
-
 #: inc/template-tags.php:412
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Clavardages"
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
 
 #: inc/template-tags.php:415
 msgid "Archives: %s"
@@ -164,13 +165,13 @@ msgstr "Mot-clé : %s"
 msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
 msgstr "<a href=\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">Permalien</a>."
 
-#: inc/template-tags.php:331
-msgid "Posted in: %1$s | Tagged: %2$s"
-msgstr "Publié dans&nbsp;: %1$s | Marqué&nbsp;: %2$s"
-
 #: inc/template-tags.php:333
 msgid "Posted in: %1$s"
 msgstr "Publié dans : %1$s"
+
+#: inc/template-tags.php:331
+msgid "Posted in: %1$s | Tagged: %2$s"
+msgstr "Publié dans&nbsp;: %1$s | Marqué&nbsp;: %2$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:323
@@ -211,6 +212,10 @@ msgstr "%1$s à %2$s"
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
 
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "Ping :"
+
 #: inc/template-tags.php:53
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\"></span>&nbsp;%title"
@@ -220,10 +225,6 @@ msgstr "<span class=\"meta-nav\"></span>&nbsp;%title"
 msgctxt "Next post link"
 msgid "%title&nbsp;<span class=\"meta-nav\"></span>"
 msgstr "%title&nbsp;<span class=\"meta-nav\"></span>"
-
-#: inc/template-tags.php:75
-msgid "Pingback:"
-msgstr "Ping :"
 
 #: inc/template-tags.php:23
 msgid "<span class=\"meta-nav\"></span> Older posts"
@@ -241,14 +242,6 @@ msgstr "Navigation des articles"
 msgid "Posts navigation"
 msgstr "Navigation des articles"
 
-#: image.php:20
-msgid "<span class=\"meta-nav\"></span> Previous"
-msgstr "<span class=\"meta-nav\"></span> Précédent"
-
-#: image.php:21
-msgid "Next <span class=\"meta-nav\"></span>"
-msgstr "Suivant <span class=\"meta-nav\"></span>"
-
 #: image.php:30
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "Publié <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> à <a href=\"%3$s\" title=\"Len image full-size\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Retour %7$s\" rel=\"gallery\">%8$s</a>"
@@ -257,7 +250,15 @@ msgstr "Publié <span class=\"entry-date\"><time class=\"entry-date\" datetime=\
 msgid "Page %s"
 msgstr "Page %s"
 
-#: header.php:34
+#: image.php:21
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr "Suivant <span class=\"meta-nav\"></span>"
+
+#: image.php:20
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr "<span class=\"meta-nav\"></span> Précédent"
+
+#: header.php:37
 msgid "Menu"
 msgstr "Menu"
 

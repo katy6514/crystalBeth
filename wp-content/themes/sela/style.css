@@ -2,13 +2,24 @@
 Theme Name: Sela
 Theme URI: https://wordpress.com/themes/sela/
 Description: Sela is not your typical business theme. Vibrant, bold, and clean, with lots of space for large images, this theme will look great on all devices, from desktop to mobile.
-Version: 1.0.12
+Version: 1.0.14
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: sela
-Tags: gray, pink, white, light, two-columns, right-sidebar, custom-colors, responsive-layout, custom-background, custom-menu, featured-images, full-width-template, microformats, rtl-language-support, sticky-post, translation-ready
+Tags: custom-background, custom-colors, custom-menu, featured-images, full-width-template, microformats, right-sidebar, rtl-language-support, sticky-post, translation-ready, two-columns
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sela is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Sela is a fork of Motif by WordPress.com http://wordpress.com/.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
 */
 
 /*--------------------------------------------------------------
@@ -1349,6 +1360,11 @@ blockquote cite {
 	padding-right: 4.661%;
 	padding-left: 4.661%;
 }
+
+.front-page-content-area .without-featured-image {
+	padding: 3em 4.661%;
+}
+
 .front-page-content-area .with-featured-image .entry-header {
 	margin-top: 1.5em;
 	padding: 0;
@@ -1357,11 +1373,7 @@ blockquote cite {
 	margin-bottom: 1.5em;
 	padding: 0;
 }
-.front-page-content-area .with-featured-image {
-	border-bottom: 1px solid #f2f2f2;
-	padding-right: 4.661%;
-	padding-left: 4.661%;
-}
+
 .hero-content-overlayer {
 	height: 100%;
 	overflow: auto;
@@ -1798,14 +1810,17 @@ video {
 	.main-navigation ul a {
 		padding: 0;
 	}
+	.main-navigation .nav-menu > li > a:after,
 	.main-navigation .menu > li > a:after {
 		color: #ffa4ad;
 		content: " \2022";
 		margin-left: 1em;
 	}
+	.main-navigation .nav-menu > li:last-child,
 	.main-navigation .menu > li:last-child {
 		padding-right: 0;
 	}
+	.main-navigation .nav-menu > li:last-child > a:after,
 	.main-navigation .menu > li:last-child > a:after {
 		display: none;
 	}

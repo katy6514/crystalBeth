@@ -1,5 +1,5 @@
-# Translation of Sela in Spanish (Spain)
-# This file is distributed under the same license as the Sela package.
+# Translation of WordPress.com - Themes - Sela in Spanish (Spain)
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2016-01-04 12:58:13+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Sela\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
 
 #: functions.php:161
 msgid "Second Front Page Widget Area"
@@ -35,15 +36,15 @@ msgstr "Primera área de widgets del pie"
 msgid "Full Width Page"
 msgstr "Página de ancho completo"
 
-#. Author URI of the plugin/theme
-#: wp-content/themes/pub/sela/style.css
-msgid "https://wordpress.com/themes/"
-msgstr "https://es.wordpress.com/themes/"
-
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sela/page-templates/front-page.php
 msgid "Front Page"
 msgstr "Portada"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://es.wordpress.com/themes/"
 
 #. Author of the plugin/theme
 #: wp-content/themes/pub/sela/style.css
@@ -68,14 +69,14 @@ msgctxt "post format archive title"
 msgid "Audio"
 msgstr "Audio"
 
+#: inc/template-tags.php:415
+msgid "Archives: %s"
+msgstr "Archivos: %s"
+
 #: inc/template-tags.php:412
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Chats"
-
-#: inc/template-tags.php:415
-msgid "Archives: %s"
-msgstr "Archivos: %s"
 
 #: inc/template-tags.php:406
 msgctxt "post format archive title"
@@ -92,15 +93,20 @@ msgctxt "post format archive title"
 msgid "Images"
 msgstr "Imágenes"
 
+#: inc/template-tags.php:404
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citas"
+
 #: inc/template-tags.php:402
 msgctxt "post format archive title"
 msgid "Videos"
 msgstr "Vídeos"
 
-#: inc/template-tags.php:404
+#: inc/template-tags.php:398
 msgctxt "post format archive title"
-msgid "Quotes"
-msgstr "Citas"
+msgid "Galleries"
+msgstr "Galerías"
 
 #: inc/template-tags.php:393
 msgctxt "daily archives date format"
@@ -111,11 +117,6 @@ msgstr "j F, Y"
 msgctxt "post format archive title"
 msgid "Asides"
 msgstr "Asides"
-
-#: inc/template-tags.php:398
-msgctxt "post format archive title"
-msgid "Galleries"
-msgstr "Galerías"
 
 #: inc/template-tags.php:393
 msgid "Day: %s"
@@ -226,7 +227,7 @@ msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime
 msgid "Page %s"
 msgstr "Página %s"
 
-#: header.php:34
+#: header.php:37
 msgid "Menu"
 msgstr "Menu"
 

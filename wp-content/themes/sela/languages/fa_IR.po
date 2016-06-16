@@ -223,7 +223,7 @@ msgstr "منتشرشده در <span class=\"entry-date\"><time class=\"entry-dat
 msgid "Page %s"
 msgstr "صفحهٔ %s"
 
-#: header.php:34
+#: header.php:37
 msgid "Menu"
 msgstr "گزینگان"
 

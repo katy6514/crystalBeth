@@ -1,5 +1,5 @@
-# Translation of Sela in Turkish
-# This file is distributed under the same license as the Sela package.
+# Translation of WordPress.com - Themes - Sela in Turkish
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-03-04 03:56:15+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Sela\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
 
 #: functions.php:161
 msgid "Second Front Page Widget Area"
@@ -49,28 +50,28 @@ msgstr "Automattic"
 msgid "Search Results for: %s"
 msgstr "Arama sonuçları: %s"
 
+#: inc/template-tags.php:421
+msgid "Archives"
+msgstr "Arşivler"
+
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
 #: inc/template-tags.php:419
 msgid "%1$s: %2$s"
 msgstr "%1$s: %2$s"
-
-#: inc/template-tags.php:421
-msgid "Archives"
-msgstr "Arşivler"
 
 #: inc/template-tags.php:410
 msgctxt "post format archive title"
 msgid "Audio"
 msgstr "Ses"
 
+#: inc/template-tags.php:415
+msgid "Archives: %s"
+msgstr "Arşivler: %s"
+
 #: inc/template-tags.php:412
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Sohbetler"
-
-#: inc/template-tags.php:415
-msgid "Archives: %s"
-msgstr "Arşivler: %s"
 
 #: inc/template-tags.php:406
 msgctxt "post format archive title"
@@ -87,15 +88,15 @@ msgctxt "post format archive title"
 msgid "Images"
 msgstr "Görseller"
 
-#: inc/template-tags.php:402
-msgctxt "post format archive title"
-msgid "Videos"
-msgstr "Videolar"
-
 #: inc/template-tags.php:404
 msgctxt "post format archive title"
 msgid "Quotes"
 msgstr "Alıntılar"
+
+#: inc/template-tags.php:402
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videolar"
 
 #: inc/template-tags.php:393
 msgctxt "daily archives date format"
@@ -209,7 +210,7 @@ msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">
 msgid "Page %s"
 msgstr "Sayfa %s"
 
-#: header.php:34
+#: header.php:37
 msgid "Menu"
 msgstr "Menü"
 

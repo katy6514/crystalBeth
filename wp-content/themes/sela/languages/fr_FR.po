@@ -226,7 +226,7 @@ msgstr "Publi&eacute; <span class=\"entry-date\"><time class=\"entry-date\" date
 msgid "Page %s"
 msgstr "Page %s"
 
-#: header.php:34
+#: header.php:37
 msgid "Menu"
 msgstr "Menu"
 

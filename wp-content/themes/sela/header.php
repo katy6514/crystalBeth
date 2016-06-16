@@ -25,9 +25,12 @@
 		<div class="site-branding">
 			<?php sela_the_site_logo(); ?>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php if ( '' != get_bloginfo( 'description' ) ) : ?>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			<?php endif; ?>
+			<?php
+			$description = get_bloginfo( 'description', 'display' );
+			if ( $description || is_customize_preview() ) : ?>
+				<h2 class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></h2>
+			<?php
+			endif; ?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

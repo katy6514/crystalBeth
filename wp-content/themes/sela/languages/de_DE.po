@@ -1,5 +1,5 @@
-# Translation of Sela in German
-# This file is distributed under the same license as the Sela package.
+# Translation of WordPress.com - Themes - Sela in German
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-03-04 03:56:15+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Sela\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
 
 #: functions.php:161
 msgid "Second Front Page Widget Area"
@@ -73,11 +74,6 @@ msgstr "%1$s @ %2$s"
 msgid "Archives"
 msgstr "Archiv"
 
-#: inc/template-tags.php:410
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr "Audio"
-
 #: inc/template-tags.php:412
 msgctxt "post format archive title"
 msgid "Chats"
@@ -86,6 +82,11 @@ msgstr "Chats"
 #: inc/template-tags.php:415
 msgid "Archives: %s"
 msgstr "Archive: %s"
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
 
 #: inc/template-tags.php:406
 msgctxt "post format archive title"
@@ -112,11 +113,6 @@ msgctxt "post format archive title"
 msgid "Quotes"
 msgstr "Zitate"
 
-#: inc/template-tags.php:393
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr "j. F Y"
-
 #: inc/template-tags.php:396
 msgctxt "post format archive title"
 msgid "Asides"
@@ -126,6 +122,11 @@ msgstr "Kurzmitteilungen"
 msgctxt "post format archive title"
 msgid "Galleries"
 msgstr "Galerien"
+
+#: inc/template-tags.php:393
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j. F Y"
 
 #: inc/template-tags.php:393
 msgid "Day: %s"
@@ -212,6 +213,10 @@ msgstr "%s <span class=\"says\">schreibt:</span>"
 msgid "Pingback:"
 msgstr "Pingback: "
 
+#: inc/template-tags.php:50
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
 #: inc/template-tags.php:23
 msgid "<span class=\"meta-nav\"></span> Older posts"
 msgstr "<span class=\"meta-nav\"></span> Ältere Beiträge"
@@ -219,10 +224,6 @@ msgstr "<span class=\"meta-nav\"></span> Ältere Beiträge"
 #: inc/template-tags.php:27
 msgid "Newer posts <span class=\"meta-nav\"></span>"
 msgstr "Neuere Beiträge <span class=\"meta-nav\"></span>"
-
-#: inc/template-tags.php:50
-msgid "Post navigation"
-msgstr "Beitragsnavigation"
 
 #: inc/template-tags.php:19
 msgid "Posts navigation"
@@ -236,7 +237,7 @@ msgstr "Veröffentlicht <span class=\"entry-date\"><time class=\"entry-date\" da
 msgid "Page %s"
 msgstr "Seite %s"
 
-#: header.php:34
+#: header.php:37
 msgid "Menu"
 msgstr "Menü"
 

@@ -1,5 +1,5 @@
-# Translation of Sela in Portuguese (Brazil)
-# This file is distributed under the same license as the Sela package.
+# Translation of WordPress.com - Themes - Sela in Portuguese (Brazil)
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2016-02-26 20:32:25+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Sela\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
 
 #: functions.php:161
 msgid "Second Front Page Widget Area"
@@ -54,15 +55,15 @@ msgstr "https://wordpress.com/themes/"
 msgid "Front Page"
 msgstr "Página inicial"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sela/style.css
-msgid "Sela is not your typical business theme. Vibrant, bold, and clean, with lots of space for large images, this theme will look great on all devices, from desktop to mobile."
-msgstr "Sela é um tema de empresas não convencional. Vibrante, forte e limpo, com muito espaço para grandes imagens, este tema fica bem em qualquer dispositivo, de desktops a celulares."
-
 #. Author of the plugin/theme
 #: wp-content/themes/pub/sela/style.css
 msgid "Automattic"
 msgstr "Automattic"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/sela/style.css
+msgid "Sela is not your typical business theme. Vibrant, bold, and clean, with lots of space for large images, this theme will look great on all devices, from desktop to mobile."
+msgstr "Sela é um tema de empresas não convencional. Vibrante, forte e limpo, com muito espaço para grandes imagens, este tema fica bem em qualquer dispositivo, de desktops a celulares."
 
 #: search.php:16
 msgid "Search Results for: %s"
@@ -77,15 +78,15 @@ msgstr "%1$s @ %2$s"
 msgid "Archives"
 msgstr "Arquivos"
 
-#: inc/template-tags.php:410
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr "Áudio"
-
 #: inc/template-tags.php:412
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Chats"
+
+#: inc/template-tags.php:410
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Áudio"
 
 #: inc/template-tags.php:415
 msgid "Archives: %s"
@@ -169,13 +170,13 @@ msgstr "Tag: %s"
 msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
 msgstr "<a href=\"%3$s\" title=\"Link permanente para %4$s\" rel=\"bookmark\">Link permanente</a>."
 
-#: inc/template-tags.php:331
-msgid "Posted in: %1$s | Tagged: %2$s"
-msgstr "Publicado em: %1$s | Marcado como: %2$s"
-
 #: inc/template-tags.php:333
 msgid "Posted in: %1$s"
 msgstr "Publicado em: %1$s"
+
+#: inc/template-tags.php:331
+msgid "Posted in: %1$s | Tagged: %2$s"
+msgstr "Publicado em: %1$s | Marcado como: %2$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:323
@@ -216,6 +217,10 @@ msgstr "%1$s às %2$s"
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">disse:</span>"
 
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "Pingback: "
+
 #: inc/template-tags.php:53
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\"></span>&nbsp;%title"
@@ -225,10 +230,6 @@ msgstr "<span class=\"meta-nav\"></span>&nbsp;%title"
 msgctxt "Next post link"
 msgid "%title&nbsp;<span class=\"meta-nav\"></span>"
 msgstr "%title&nbsp;<span class=\"meta-nav\"></span>"
-
-#: inc/template-tags.php:75
-msgid "Pingback:"
-msgstr "Pingback: "
 
 #: inc/template-tags.php:23
 msgid "<span class=\"meta-nav\"></span> Older posts"
@@ -246,14 +247,6 @@ msgstr "Navegação de Posts"
 msgid "Posts navigation"
 msgstr "Navegação de Posts"
 
-#: image.php:20
-msgid "<span class=\"meta-nav\"></span> Previous"
-msgstr "<span class=\"meta-nav\"></span> Anterior"
-
-#: image.php:21
-msgid "Next <span class=\"meta-nav\"></span>"
-msgstr "Próxima <span class=\"meta-nav\"></span>"
-
 #: image.php:30
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link para imagem inteira\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Voltar para %7$s\" rel=\"gallery\">%8$s</a>"
@@ -262,7 +255,15 @@ msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime
 msgid "Page %s"
 msgstr "Página %s"
 
-#: header.php:34
+#: image.php:20
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr "<span class=\"meta-nav\"></span> Anterior"
+
+#: image.php:21
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr "Próxima <span class=\"meta-nav\"></span>"
+
+#: header.php:37
 msgid "Menu"
 msgstr "Menu"
 

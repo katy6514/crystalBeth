@@ -1,7 +1,7 @@
 === Sela ===
 
 Contributors: automattic
-Tags: light, pink, white, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, featured-images,  full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Tags: light, pink, white, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, featured-images,  full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, testimonials
 
 Requires at least: 4.0
 Tested up to: 4.1
@@ -123,6 +123,29 @@ Linking to any of the following sites will automatically display its icon in you
 * Screenshot image by Unsplash (http://pixabay.com/en/notebook-workplace-desk-iphone-336634/), licensed under CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 == Changelog ==
+
+= 25 May 2016 =
+* Update version number for .org submission
+* Update version number for .org submission
+
+= 24 May 2016 =
+* Ensure separator dots on main navigation appear regardless of whether a custom menu is set.
+
+= 12 May 2016 =
+* Add new classic-menu tag.
+
+= 10 May 2016 =
+* Adjust padding on front page template content without featured image on small screens.
+
+= 5 May 2016 =
+* Update code responsible for outputting site description, so that Customizer live preview works correctly. Fixes #3845;
+* Move annotations into the `inc` directory.
+
+= 4 May 2016 =
+* Move existing annotations into their respective theme directories.
+
+= 22 April 2016 =
+* Add testimonials tag to style.css and readme.txt.
 
 = 3 March 2016 =
 * Updating RTL styles to go with tabbing menu fix -

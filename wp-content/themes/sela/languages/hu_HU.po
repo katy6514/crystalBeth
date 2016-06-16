@@ -1,5 +1,5 @@
-# Translation of Sela in Hungarian
-# This file is distributed under the same license as the Sela package.
+# Translation of WordPress.com - Themes - Sela in Hungarian
+# This file is distributed under the same license as the WordPress.com - Themes - Sela package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-12-11 04:18:36+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Sela\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: hu\n"
+"Project-Id-Version: WordPress.com - Themes - Sela\n"
 
 #: functions.php:161
 msgid "Second Front Page Widget Area"
@@ -214,7 +215,7 @@ msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">
 msgid "Page %s"
 msgstr "%s oldal"
 
-#: header.php:34
+#: header.php:37
 msgid "Menu"
 msgstr "Menü"
 
@@ -234,10 +235,6 @@ msgctxt "Droid Serif font: on or off"
 msgid "on"
 msgstr "be"
 
-#: functions.php:49
-msgid "Social Menu"
-msgstr "Közösségi menü"
-
 #. translators: If there are characters in your language that are not supported
 #. * by Source Sans Pro, translate this to 'off'. Do not translate into your
 #. own language.
@@ -245,6 +242,10 @@ msgstr "Közösségi menü"
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "on"
+
+#: functions.php:49
+msgid "Social Menu"
+msgstr "Közösségi menü"
 
 #: functions.php:48
 msgid "Primary Menu"
