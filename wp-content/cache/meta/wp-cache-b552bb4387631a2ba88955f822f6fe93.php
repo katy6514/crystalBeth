@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Cookie","Content-Type":"Content-Type: text\/html; charset=UTF-8","X-Pingback":"X-Pingback: http:\/\/crystal.loc\/xmlrpc.php","Last-Modified":"Last-Modified: Thu, 30 Jun 2016 19:39:00 GMT"},"uri":"crystal.loc\/","blog_id":1,"post":27,"key":"crystal.loc80\/364f45c75ff1d7ea00ae30aa155c3719"}
